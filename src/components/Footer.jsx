@@ -109,7 +109,7 @@ const Footer = () => {
         <p className="text-gray-400">
           &copy; {new Date().getFullYear()} Nike Shoes | Designed by{" "}
           <span className="text-white font-semibold">
-            Satish KONAKALLA
+            Satish 
           </span>
           . All rights reserved.
         </p>

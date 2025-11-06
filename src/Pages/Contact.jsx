@@ -64,26 +64,19 @@ const Contact = () => {
               <h3 className="text-xl font-semibold mb-4 text-[#33CCCC]">Contact Info</h3>
               <div className="flex gap-2 items-start mb-3 text-gray-300">
                 <MapPin className="text-[#33CCCC] w-5 h-5" />
-                <p>Nagpur, Maharashtra, India</p>
+                <p>Paris ,France</p>
               </div>
               <div className="flex gap-2 items-center mb-3 text-gray-300">
                 <Phone className="text-[#33CCCC] w-5 h-5" />
-                <p>+91 00000 00000</p>
+                <p>+33 1 23 45 67 89</p>
               </div>
               <div className="flex gap-2 items-center text-gray-300">
                 <Mail className="text-[#33CCCC] w-5 h-5" />
-                <p>example@email.com</p>
+                <p>123@email.com</p>
               </div>
             </div>
             <div className="w-full h-64 bg-gray-800 rounded-lg overflow-hidden">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680857.048374748!2d75.06568982891808!3d21.14580076030706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c09f3a28cfeb%3A0x6f6b1e056bc2a7d!2sNagpur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1734422195742!5m2!1sen!2sin"
-                className="w-full h-full border-0"
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Google Map"
-              ></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.77816172839!2d2.2646339183829105!3d48.85893848467352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sen!2sfr!4v1762459531897!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
